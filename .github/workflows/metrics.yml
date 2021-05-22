@@ -30,7 +30,7 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://blog.ciavash.name/atom.xml
           plugin_rss_limit: 5
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
+          # plugin_activity: yes
+          # plugin_activity_limit: 5
+          # plugin_activity_days: 14
+          # plugin_activity_filter: all
