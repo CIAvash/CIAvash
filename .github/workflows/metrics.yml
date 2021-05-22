@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  # Schedule updates (start of week)
-  schedule: [{cron: "0 0 * * 1"}]
+  # Schedule updates (every three days)
+  schedule: [{cron: "0 0 */3 * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push:
@@ -15,6 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
           config_timezone: Asia/Tehran
+          repositories_affiliations: owner, collaborator
           # repositories_forks: yes
           plugin_languages: yes
           plugin_languages_skipped: CIAvash
@@ -29,3 +30,7 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://blog.ciavash.name/atom.xml
           plugin_rss_limit: 5
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
