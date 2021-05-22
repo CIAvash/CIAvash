@@ -23,7 +23,7 @@ jobs:
           plugin_languages_limit: 0
           plugin_stars: yes
           plugin_stars_limit: 5
-          plugin_gists: yes
+          # plugin_gists: yes
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_lines: yes
