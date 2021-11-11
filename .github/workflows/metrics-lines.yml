@@ -1,0 +1,20 @@
+name: Metrics Lines
+on:
+  # Schedule updates (every three days)
+  schedule: [{cron: "0 0 */3 * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  # push:
+    # branches: ["main"]
+jobs:
+  github-metrics-lines:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: .cache/lines.svg
+          config_base64: no
+          config_timezone: Asia/Tehran
+          base: ''
+          plugin_lines: yes
