@@ -1,11 +1,11 @@
-<%- await embed(`img-base`, { 'base': 'header, activity, community, repositories, metadata' }) -%>
+<%- await embed(`base`, { base: 'header, activity, community, repositories, metadata' }) %>
 
-<%- await embed(`img-lines`, { 'lines': true }) -%>
+<%- await embed(`lines`, { lines: true, config_output: 'png' }) %>
 
-<%- await embed(`img-languages`, { 'languages': true }) -%>
+<%- await embed(`languages`, { languages: true, config_output: 'png' }) %>
 
-<%- await embed(`img-followup`, { 'followup': true }) -%>
+<%- await embed(`followup`, { followup: true }) %>
 
-<%- await include(`partials/rss.ejs`) -%>
+<%- await include(`partials/rss.ejs`) %>
 
-<%- await embed(`img-stars`, { 'stars': true }) -%>
+<%- await embed(`stars`, { stars: true, config_output: 'png' }) %>
