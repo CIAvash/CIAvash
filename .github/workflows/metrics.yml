@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
@@ -21,6 +21,8 @@ jobs:
           plugin_languages_skipped: CIAvash
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 0
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
           plugin_stars: yes
           plugin_stars_limit: 5
           # plugin_gists: yes
