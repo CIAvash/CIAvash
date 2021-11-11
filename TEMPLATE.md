@@ -1,4 +1,4 @@
-<%- await embed(`base`, { base: ['header', 'activity', 'community', 'repositories', 'metadata'] }) %>
+
 
 <%- await embed(`lines`, { lines: true }) %>
 
