@@ -1,11 +1,11 @@
-<%- await embed(`base`, { base: 'header, activity, community, repositories, metadata', config_output: 'png' }) %>
+<%- await embed(`base`, { base: 'header, activity, community, repositories, metadata' }) %>
 
-<%- await embed(`lines`, { lines: true, config_output: 'png' }) %>
+<%- await embed(`lines`, { plugin_lines: true }) %>
 
-<%- await embed(`languages`, { languages: true, config_output: 'png' }) %>
+<%- await embed(`languages`, { plugin_languages: true }) %>
 
-<%- await embed(`followup`, { followup: true, config_output: 'png' }) %>
+<%- await embed(`followup`, { plugin_followup: true }) %>
 
 <%- await include(`partials/rss.ejs`) %>
 
-<%- await embed(`stars`, { stars: true, config_output: 'png' }) %>
+<%- await embed(`stars`, { plugin_stars: true }) %>
