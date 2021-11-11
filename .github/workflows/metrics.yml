@@ -17,7 +17,7 @@ jobs:
           # filename: metrics.svg
           filename: README.md
           # config_output: json
-          config_base64: no
+          # config_base64: no
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
           # repositories_forks: yes
