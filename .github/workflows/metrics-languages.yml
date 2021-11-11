@@ -3,9 +3,9 @@ on:
   # Schedule updates (every three days)
   schedule: [{cron: "0 0 */3 * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
-  workflow_dispatch:
-  push:
-    branches: ["main"]
+  # workflow_dispatch:
+  # push:
+    # branches: ["main"]
 jobs:
   github-metrics-languages:
     runs-on: ubuntu-latest
@@ -16,6 +16,7 @@ jobs:
           # filename: metrics.svg
           filename: .cache/languages.svg
           # config_output: json
+          base: no
           config_base64: no
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
