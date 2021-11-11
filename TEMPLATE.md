@@ -1,16 +1,11 @@
-<%- await embed(`base`, { base: "header, activity, community, repositories, metadata" }) %>
+<%- await embed(`img-base`, { 'base': 'header, activity, community, repositories, metadata' }) -%>
 
-<%- await embed(`lines`, { lines: true, config_output: "markdown", config_base64: false, markdown_cache: ".cache" }) %>
+<%- await embed(`img-lines`, { 'lines': true }) -%>
 
-<%- await embed(`languages`, { languages: true, config_output: "markdown", config_base64: false, markdown_cache: ".cache" }) %>
+<%- await embed(`img-languages`, { 'languages': true }) -%>
 
-<%- await embed(`followup`, { followup: true, config_output: "markdown", config_base64: false, markdown_cache: ".cache" }) %>
+<%- await embed(`img-followup`, { 'followup': true }) -%>
 
-**[📓 Repositories:](https://github.com/<%= user.login %>?tab=repositories)**
-<%_ for (const { name, owner } of user.repositories.nodes) { _%>
-    [<%= name %>](https://github.com/<%= `${owner.login}/${name}` %>)
-<%_ } _%>
+<%- await include(`partials/rss.ejs`) -%>
 
-<%- await include(`partials/rss.ejs`) %>
-
-<%- await embed(`stars`, { stars: true, config_output: "markdown", config_base64: false, markdown_cache: ".cache" }) %>
+<%- await embed(`img-stars`, { 'stars': true }) -%>
