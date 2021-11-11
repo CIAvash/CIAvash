@@ -16,7 +16,7 @@ jobs:
           template: markdown
           # filename: metrics.svg
           filename: README.md
-          config_output: json
+          # config_output: json
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
           # repositories_forks: yes
