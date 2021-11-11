@@ -17,6 +17,7 @@ jobs:
           # filename: metrics.svg
           filename: README.md
           # config_output: json
+          config_base64: no
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
           # repositories_forks: yes
@@ -25,7 +26,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 0
           plugin_languages_sections: most-used, recently-used
-          # plugin_languages_indepth: yes
+          plugin_languages_indepth: yes
           plugin_stars: yes
           plugin_stars_limit: 5
           # plugin_gists: yes
