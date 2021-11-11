@@ -16,7 +16,7 @@ jobs:
           # filename: metrics.svg
           filename: .cache/languages.svg
           # config_output: json
-          base: no
+          base: ''
           config_base64: no
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
