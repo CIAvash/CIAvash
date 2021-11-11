@@ -6,6 +6,6 @@
 
 <%- await embed(`followup`, { followup: true }) %>
 
-<%- await include(`partial/rss.ejs` %>
+<%- await include(`partial/rss.ejs`) %>
 
 <%- await embed(`stars`, { stars: true }) %>
