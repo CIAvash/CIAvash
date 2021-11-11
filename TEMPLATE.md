@@ -1,8 +1,8 @@
 <%- await embed(`base`, { base: 'header, activity, community, repositories, metadata' }) %>
 
-<%- await embed(`languages`, { plugin_languages: true }) %>
+<%- await embed(`languages`, { languages: true }) %>
 
-<%- await embed(`followup`, { plugin_followup: true }) %>
+<%- await embed(`followup`, { followup: true }) %>
 
 <%- await include(`partials/rss.ejs`) %>
 
