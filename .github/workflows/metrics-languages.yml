@@ -1,4 +1,4 @@
-name: Metrics
+name: Metrics Languages
 on:
   # Schedule updates (every three days)
   schedule: [{cron: "0 0 */3 * *"}]
