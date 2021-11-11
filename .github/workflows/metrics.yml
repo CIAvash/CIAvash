@@ -16,8 +16,9 @@ jobs:
           template: markdown
           # filename: metrics.svg
           filename: README.md
+          base: ''
           # config_output: json
-          # config_base64: no
+          config_base64: no
           config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
           # repositories_forks: yes
@@ -29,8 +30,8 @@ jobs:
           # plugin_languages_indepth: yes
           # plugin_stars: yes
           # plugin_stars_limit: 5
-          plugin_followup: yes
-          plugin_followup_sections: user
+          # plugin_followup: yes
+          # plugin_followup_sections: user
           plugin_rss: yes
           plugin_rss_source: https://www.ciavash.name/blog/atom.xml
           plugin_rss_limit: 5
