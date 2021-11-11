@@ -3,7 +3,7 @@ on:
   # Schedule updates (every three days)
   schedule: [{cron: "0 0 */3 * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
-  # workflow_dispatch:
+  workflow_dispatch:
   # push:
     # branches: ["main"]
 jobs:
@@ -27,12 +27,12 @@ jobs:
           # plugin_languages_limit: 0
           # plugin_languages_sections: most-used, recently-used
           # plugin_languages_indepth: yes
-          plugin_stars: yes
-          plugin_stars_limit: 5
+          # plugin_stars: yes
+          # plugin_stars_limit: 5
           # plugin_gists: yes
           plugin_followup: yes
           plugin_followup_sections: user
-          plugin_lines: yes
+          # plugin_lines: yes
           plugin_rss: yes
           plugin_rss_source: https://www.ciavash.name/blog/atom.xml
           plugin_rss_limit: 5
