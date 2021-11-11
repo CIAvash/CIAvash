@@ -15,8 +15,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # filename: metrics.svg
           filename: README.md
-          config_timezone: Asia/Tehran
           template: markdown
+          config_base64: no
+          config_timezone: Asia/Tehran
           # repositories_affiliations: owner, collaborator
           # repositories_forks: yes
           plugin_languages: yes
