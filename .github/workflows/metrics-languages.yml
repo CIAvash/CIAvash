@@ -3,7 +3,7 @@ on:
   # Schedule updates (every three days)
   schedule: [{cron: "0 0 */3 * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
-  # workflow_dispatch:
+  workflow_dispatch:
   # push:
     # branches: ["main"]
 jobs:
