@@ -6,13 +6,6 @@
 
 <%- await embed(`followup`, { followup: true, config_output: png }) %>
 
-<%_ } if (plugins.repositories.length) { _%>
-**[📓 Repositories](<%= user.html_url %>?tab=repositories)**
-     <%_ for (const { owner, name } of computed.repositories) { _%>
-       [<%= name %>](https://github.com/<%= `${owner}/${name}` %>) 
-     <%_ } _%>
-<%_ } _%>
-
 <%- await include(`partials/rss.ejs`) %>
 
 <%- await embed(`stars`, { stars: true, config_output: png }) %>
