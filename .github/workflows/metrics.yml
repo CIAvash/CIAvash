@@ -17,7 +17,7 @@ jobs:
             # template: markdown
             # filename: metrics.svg
             filename: .cache/base.svg
-            config_base64: no
+            # config_base64: no
             # filename: README.md
             # config_output: json
             # config_base64: no
