@@ -16,7 +16,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             # template: markdown
             # filename: metrics.svg
-            filename: base.svg
+            filename: .cache/base.svg
             config_base64: no
             # filename: README.md
             # config_output: json
@@ -54,7 +54,7 @@ jobs:
           uses: lowlighter/metrics@latest
           with:
             token: ${{ secrets.METRICS_TOKEN }}
-            filename: followup.svg
+            filename: .cache/followup.svg
             config_base64: no
             config_timezone: Asia/Tehran
             base: ''
