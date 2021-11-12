@@ -22,7 +22,7 @@ jobs:
             # config_output: json
             # config_base64: no
             config_timezone: Asia/Tehran
-            config_display: columns
+            # config_display: columns
             # repositories_affiliations: owner, collaborator
             # repositories_forks: yes
             base: header, activity, community, repositories
@@ -43,7 +43,7 @@ jobs:
             filename: .cache/languages.svg
             base: ''
             # config_base64: no
-            config_display: columns
+            # config_display: columns
             config_timezone: Asia/Tehran
             plugin_languages: yes
             plugin_languages_skipped: CIAvash
@@ -58,7 +58,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             filename: .cache/followup.svg
             # config_base64: no
-            config_display: columns
+            # config_display: columns
             config_timezone: Asia/Tehran
             base: ''
             plugin_followup: yes
@@ -70,7 +70,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             filename: .cache/stars.svg
             # config_base64: no
-            config_display: columns
+            # config_display: columns
             config_timezone: Asia/Tehran
             base: ''
             plugin_stars: yes
