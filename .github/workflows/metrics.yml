@@ -85,7 +85,7 @@ jobs:
           with:
             token: ${{ secrets.METRICS_TOKEN }}
             template: markdown
-            extra_css: |
+            extras_css: |
               img {
                 min-width: 100%;
               }
