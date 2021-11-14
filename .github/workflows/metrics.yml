@@ -43,7 +43,7 @@ jobs:
             filename: .cache/languages.svg
             base: ''
             # config_base64: no
-            # config_display: columns
+            config_display: large
             config_timezone: Asia/Tehran
             repositories: 200
             commits_authoring: ${{ secrets.METRICS_COMMIT_AUTHOR }}
