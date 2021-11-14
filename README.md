@@ -1,9 +1,8 @@
-![base](.cache/base.svg)
+<img style="width: 100%" alt="base" src=".cache/base.svg">
 
+<img style="width: 100%" alt="languages" src=".cache/languages.svg">
 
-![languages](.cache/languages.svg)
-
-![followup](.cache/followup.svg)
+<img style="width: 100%" alt="followup" src=".cache/followup.svg">
 
 **[🗼 Rss feed from CIAvash - Blog](https://www.ciavash.name/blog/)**
 * [Raku, Go, Chroma, Germanium, Hugo and my blog](https://www.ciavash.name/blog/2021/07/05/raku-go-chroma-germanium-hugo-and-my-blog/)
@@ -18,4 +17,4 @@
   * *Published on 9 Jan 2016*
 
 
-![stars](.cache/stars.svg)
+<img style="width: 100%" alt="stars" src=".cache/stars.svg">
