@@ -1390,8 +1390,8 @@
     animation-duration: 0s !important;
     animation-play-state: paused !important;
     caret-color: transparent !important;
-  }svg {
- min-width: 100%;
+  }svg.columns .largable &gt; .row {
+ width: 100%;
 }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
