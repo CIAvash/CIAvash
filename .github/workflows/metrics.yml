@@ -29,7 +29,7 @@ jobs:
             # config_output: json
             # config_base64: no
             config_timezone: Asia/Tehran
-            config_display: columns
+            config_display: large
             extras_css: ${{ env.CSS_IMG }}
             # repositories_affiliations: owner, collaborator
             # repositories_forks: yes
@@ -51,7 +51,7 @@ jobs:
             filename: .cache/languages.svg
             base: ''
             # config_base64: no
-            config_display: columns
+            config_display: large
             config_timezone: Asia/Tehran
             repositories: 200
             commits_authoring: ${{ secrets.METRICS_COMMIT_AUTHOR }}
