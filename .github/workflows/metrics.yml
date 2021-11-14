@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CSS_IMG: |
-        svg {
-          min-width: 100%;
+        svg.columns .largable > .row {
+          width: 100%;
         }
     steps:
         - name: Base
