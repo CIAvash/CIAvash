@@ -1,13 +1,13 @@
-![base](.cache/base.svg)
-<%# await embed(`base`, { base: 'header, activity, community, repositories, metadata' }) #%>
+<img style="width: 100%" alt="base" src=".cache/base.svg">
+<%# await embed(`base`, { base: 'header, activity, community, repositories, metadata' }) _%>
 
-![languages](.cache/languages.svg)
+<img style="width: 100%" alt="languages" src=".cache/languages.svg">
 <%# await embed(`languages`, { languages: true }) _%>
 
-![followup](.cache/followup.svg)
+<img style="width: 100%" alt="followup" src=".cache/followup.svg">
 <%# await embed(`followup`, { followup: true }) _%>
 
 <%- await include(`partials/rss.ejs`) %>
 
-![stars](.cache/stars.svg)
+<img style="width: 100%" alt="stars" src=".cache/stars.svg">
 <%# await embed(`stars`, { plugin_stars: true }) _%>
