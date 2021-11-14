@@ -83,7 +83,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             filename: .cache/stars.svg
             # config_base64: no
-            config_display: columns
+            config_display: large
             config_timezone: Asia/Tehran
             extras_css: ${{ env.CSS_IMG }}
             base: ''
