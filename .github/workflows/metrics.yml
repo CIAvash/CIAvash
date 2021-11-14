@@ -9,6 +9,11 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    env:
+      CSS_IMG: |
+        img {
+          min-width: 100%;
+        }
     steps:
         - name: Base
           uses: lowlighter/metrics@latest
@@ -23,6 +28,7 @@ jobs:
             # config_base64: no
             config_timezone: Asia/Tehran
             config_display: columns
+            extra_css: $CSS_IMG
             # repositories_affiliations: owner, collaborator
             # repositories_forks: yes
             base: header, activity, community, repositories
@@ -47,6 +53,7 @@ jobs:
             config_timezone: Asia/Tehran
             repositories: 200
             commits_authoring: ${{ secrets.METRICS_COMMIT_AUTHOR }}
+            extra_css: $CSS_IMG
             plugin_languages: yes
             plugin_languages_indepth: yes
             plugin_languages_skipped: CIAvash
@@ -76,6 +83,7 @@ jobs:
             # config_base64: no
             config_display: columns
             config_timezone: Asia/Tehran
+            extra_css: $CSS_IMG
             base: ''
             plugin_stars: yes
             plugin_stars_limit: 5
