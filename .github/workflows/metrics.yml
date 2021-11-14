@@ -45,14 +45,16 @@ jobs:
             # config_base64: no
             # config_display: columns
             config_timezone: Asia/Tehran
+            repositories: 200
+            commits_authoring: ${{ secrets.METRICS_COMMIT_AUTHOR }}
             plugin_languages: yes
             plugin_languages_indepth: yes
             plugin_languages_skipped: CIAvash
-            plugin_languages_details: bytes-size, lines, percentage
-            plugin_languages_limit: 200
+            plugin_languages_details: percentage, bytes-size, lines
+            plugin_languages_limit: 0
             plugin_languages_sections: most-used, recently-used
             plugin_languages_recent_load: 500
-            plugin_languages_recent_days: 0
+            plugin_languages_recent_days: 365
 
         - name: Followup
           uses: lowlighter/metrics@latest
