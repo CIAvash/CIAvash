@@ -88,7 +88,7 @@ jobs:
             extras_css: ${{ env.CSS_IMG }}
             base: ''
             plugin_stars: yes
-            plugin_stars_limit: 10
+            plugin_stars_limit: 5
 
         - name: RSS
           uses: lowlighter/metrics@latest
