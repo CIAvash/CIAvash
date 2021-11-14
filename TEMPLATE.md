@@ -4,7 +4,7 @@
 <img style="width: 100%" alt="languages" src=".cache/languages.svg">
 <%# await embed(`languages`, { languages: true }) _%>
 
-<img style="width: 100%" alt="followup" src=".cache/followup.svg">
+<img alt="followup" src=".cache/followup.svg">
 <%# await embed(`followup`, { followup: true }) _%>
 
 <%- await include(`partials/rss.ejs`) %>
