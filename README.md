@@ -2,7 +2,7 @@
 
 <img width="100%" alt="languages" src=".cache/languages.svg">
 
-<img width="100%" alt="followup" src=".cache/followup.svg">
+<img alt="followup" src=".cache/followup.svg">
 
 **[🗼 Rss feed from CIAvash - Blog](https://www.ciavash.name/blog/)**
 * [Raku, Go, Chroma, Germanium, Hugo and my blog](https://www.ciavash.name/blog/2021/07/05/raku-go-chroma-germanium-hugo-and-my-blog/)
@@ -18,5 +18,3 @@
 
 
 <img width="100%" alt="stars" src=".cache/stars.svg">
-
-<img alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
