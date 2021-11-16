@@ -26,8 +26,7 @@ jobs:
       SMALL_IMG: |
 
         .items-wrapper {
-            width: 450px !important;
-            height: 700px !important;
+            height: 750px !important;
             overflow: hidden !important;
         }
     steps:
@@ -80,7 +79,7 @@ jobs:
             plugin_languages_recent_days: 365
 
         - name: Followup
-          uses: lowlighter/metrics@master
+          uses: lowlighter/metrics@latest
           with:
             token: ${{ secrets.METRICS_TOKEN }}
             filename: .cache/followup.svg
@@ -94,7 +93,6 @@ jobs:
             plugin_notable_filter: stars:>500
             plugin_notable_from: all
             plugin_notable_repositories: yes
-            plugin_notable_indepth: yes
 
         - name: Stars
           uses: lowlighter/metrics@latest
@@ -135,9 +133,6 @@ jobs:
             plugin_rss: yes
             plugin_rss_source: https://www.ciavash.name/blog/atom.xml
             plugin_rss_limit: 5
-            plugin_topics: yes
-            plugin_topics_limit: 15
-            plugin_topics_mode: icons
             # plugin_followup_sections: user
             # plugin_rss: yes
             # plugin_rss_source: https://www.ciavash.name/blog/atom.xml
