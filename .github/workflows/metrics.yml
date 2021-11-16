@@ -106,21 +106,6 @@ jobs:
             base: ''
             plugin_stars: yes
             plugin_stars_limit: 8
-            
-        - name: Mastodon
-          uses: lowlighter/metrics@latest
-          with:
-            token: ${{ secrets.METRICS_TOKEN }}
-            filename: .cache/mastodon.svg
-            # config_base64: no
-            # config_display: large
-            config_timezone: Asia/Tehran
-            extras_css: ${{ env.SMALL_IMG }}
-            base: ''
-            plugin_screenshot: yes
-            plugin_screenshot_title: "Siavash’s Toots"
-            plugin_screenshot_url: https://mastodon.social/@CIAvash/with_replies
-            plugin_screenshot_selector: '.activity-stream'
 
         - name: Template
           uses: lowlighter/metrics@latest
