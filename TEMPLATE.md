@@ -14,9 +14,5 @@
 
 <%- await include(`partials/topics.ejs`) %>
 
-<span style="display: inline-block; width: 450px; height: 700px; overflow: hidden;">
-  <img alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
-</span>
-<span style="display: inline-block; width: 450px; height: 700px; overflow: hidden;">
-  <img alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
-</span>
+<img width="450" height="700" alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
+<img width="450" height="700" alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
