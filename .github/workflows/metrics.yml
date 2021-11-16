@@ -84,7 +84,7 @@ jobs:
             token: ${{ secrets.METRICS_TOKEN }}
             filename: .cache/followup.svg
             # config_base64: no
-            config_display: columns
+            # config_display: columns
             config_timezone: Asia/Tehran
             base: ''
             plugin_followup: yes
