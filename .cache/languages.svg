@@ -1391,8 +1391,15 @@
     animation-play-state: paused !important;
     caret-color: transparent !important;
   }:root {
- width: 100%;
- height: 100%;
+ width: 100% !important;
+ height: 100% !important;
+}
+.columns .column {
+ align-items: flex-start !important;
+ margin: 0 20px !important;
+}
+.columns .fill-width {
+ width: auto !important;
 }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -1586,10 +1593,10 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="564.5176363695364" height="8" fill="#0000fb"/>
-                    <rect mask="url(#languages-bar)" x="564.5176363695364" y="0" width="347.526365317844" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="912.0440016873804" y="0" width="5.35873057078885" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="917.4027322581692" y="0" width="2.597267741830808" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="561.0856138427054" height="8" fill="#0000fb"/>
+                    <rect mask="url(#languages-bar)" x="561.0856138427054" y="0" width="345.4135556594798" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="906.4991695021852" y="0" width="11.067713792714196" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="917.5668832948994" y="0" width="2.4331167051007077" height="8" fill="#c6538c"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1603,7 +1610,7 @@
                             <small>
                                 <div>944 lines</div>
                                 <div>37.8 kB</div>
-                                <div>61.36%</div>
+                                <div>60.99%</div>
                             </small>
                         </div>
                     </section>
@@ -1618,7 +1625,7 @@
                             <small>
                                 <div>706 lines</div>
                                 <div>23.2 kB</div>
-                                <div>37.77%</div>
+                                <div>37.54%</div>
                             </small>
                         </div>
                     </section>
@@ -1631,9 +1638,9 @@
                                 HTML
                             </div>
                             <small>
-                                <div>17 lines</div>
-                                <div>359 bytes</div>
-                                <div>0.58%</div>
+                                <div>10 lines</div>
+                                <div>746 bytes</div>
+                                <div>1.2%</div>
                             </small>
                         </div>
                     </section>
@@ -1646,9 +1653,9 @@
                                 SCSS
                             </div>
                             <small>
-                                <div>9 lines</div>
-                                <div>174 bytes</div>
-                                <div>0.28%</div>
+                                <div>10 lines</div>
+                                <div>164 bytes</div>
+                                <div>0.26%</div>
                             </small>
                         </div>
                     </section>
