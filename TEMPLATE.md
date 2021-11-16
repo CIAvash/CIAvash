@@ -13,3 +13,13 @@
 <%# await embed(`stars`, { plugin_stars: true }) _%>
 
 <%- await include(`partials/topics.ejs`) %>
+
+<div style="display:flex;justify-content: space-between;flex-direction: row;">
+  <span>
+    <img width="100%" alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
+  </span>
+  <span>
+    <img width="100%" alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
+  </span>
+</div>
+  
