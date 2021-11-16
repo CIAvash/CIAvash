@@ -94,23 +94,8 @@ jobs:
             base: ''
             plugin_stars: yes
             plugin_stars_limit: 8
-            
-            
-        - name: Topics
-          uses: lowlighter/metrics@latest
-          with:
-            token: ${{ secrets.METRICS_TOKEN }}
-            filename: .cache/topics.svg
-            # config_base64: no
-            config_display: large
-            config_timezone: Asia/Tehran
-            extras_css: ${{ env.CSS_IMG }}
-            base: ''
-            plugin_topics: yes
-            plugin_topics_limit: 0
-            plugin_topics_mode: icons
 
-        - name: RSS
+        - name: Template
           uses: lowlighter/metrics@latest
           with:
             token: ${{ secrets.METRICS_TOKEN }}
@@ -121,6 +106,9 @@ jobs:
             plugin_rss: yes
             plugin_rss_source: https://www.ciavash.name/blog/atom.xml
             plugin_rss_limit: 5
+            plugin_topics: yes
+            plugin_topics_limit: 0
+            plugin_topics_mode: icons
             # plugin_followup_sections: user
             # plugin_rss: yes
             # plugin_rss_source: https://www.ciavash.name/blog/atom.xml
