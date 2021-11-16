@@ -105,9 +105,10 @@ jobs:
             config_timezone: Asia/Tehran
             extras_css: ${{ env.CSS_IMG }}
             base: ''
-            plugin_rss: yes
-            plugin_rss_limit: 5
-            plugin_rss_source: https://mastodon.social/@CIAvash.rss
+            plugin_screenshot: yes
+            plugin_screenshot_title: "Siavash’s Toots"
+            plugin_screenshot_url: https://mastodon.social/@CIAvash/with_replies
+            plugin_screenshot_selector: '.activity-stream > div:nth-child(-n+5)'
             
         - name: Twitter
           uses: lowlighter/metrics@latest
@@ -122,7 +123,7 @@ jobs:
             plugin_screenshot: yes
             plugin_screenshot_title: "Siavash’s Tweets"
             plugin_screenshot_url: https://twitter.com/CIAvash/with_replies
-            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"] article:nth-child(-n+5)'
+            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"] > div:first-child > div:nth-child(-n+5)'
 
         - name: Template
           uses: lowlighter/metrics@latest
