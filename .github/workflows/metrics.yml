@@ -13,8 +13,15 @@ jobs:
       CSS_IMG: |
 
         :root {
-          width: 100%;
-          height: 100%;
+          width: 100% !important;
+          height: 100% !important;
+        }
+        .columns .column {
+             align-items: flex-start !important;
+             margin: 0 20px !important;
+        }
+        .columns .fill-width {
+            width: auto !important;
         }
     steps:
         - name: Base
@@ -108,7 +115,7 @@ jobs:
             plugin_screenshot: yes
             plugin_screenshot_title: "Siavash’s Toots"
             plugin_screenshot_url: https://mastodon.social/@CIAvash/with_replies
-            plugin_screenshot_selector: '.activity-stream > div:nth-child(-n+5)'
+            plugin_screenshot_selector: '.activity-stream'
             
         - name: Twitter
           uses: lowlighter/metrics@latest
@@ -123,7 +130,7 @@ jobs:
             plugin_screenshot: yes
             plugin_screenshot_title: "Siavash’s Tweets"
             plugin_screenshot_url: https://twitter.com/CIAvash/with_replies
-            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"] > div:first-child > div:nth-child(-n+5)'
+            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"] article'
 
         - name: Template
           uses: lowlighter/metrics@latest
