@@ -25,7 +25,7 @@ jobs:
         }
       SMALL_IMG: |
 
-        :root {
+        .items-wrapper {
             width: 450px !important;
             height: 700px !important;
             overflow: hidden !important;
@@ -123,21 +123,6 @@ jobs:
             plugin_screenshot_title: "Siavash’s Toots"
             plugin_screenshot_url: https://mastodon.social/@CIAvash/with_replies
             plugin_screenshot_selector: '.activity-stream'
-            
-        - name: Twitter
-          uses: lowlighter/metrics@latest
-          with:
-            token: ${{ secrets.METRICS_TOKEN }}
-            filename: .cache/twitter.svg
-            # config_base64: no
-            # config_display: large
-            config_timezone: Asia/Tehran
-            extras_css: ${{ env.SMALL_IMG }}
-            base: ''
-            plugin_screenshot: yes
-            plugin_screenshot_title: "Siavash’s Tweets"
-            plugin_screenshot_url: https://twitter.com/CIAvash/with_replies
-            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"]'
 
         - name: Template
           uses: lowlighter/metrics@latest
