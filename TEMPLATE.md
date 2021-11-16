@@ -11,3 +11,5 @@
 
 <img width="100%" alt="stars" src=".cache/stars.svg">
 <%# await embed(`stars`, { plugin_stars: true }) _%>
+
+<img width="100%" alt="topics" src=".cache/topics.svg">
