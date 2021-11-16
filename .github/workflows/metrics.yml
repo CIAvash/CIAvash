@@ -89,10 +89,6 @@ jobs:
             base: ''
             plugin_followup: yes
             plugin_followup_sections: user
-            plugin_notable: yes
-            plugin_notable_filter: stars:>500
-            plugin_notable_from: all
-            plugin_notable_repositories: yes
 
         - name: Stars
           uses: lowlighter/metrics@latest
