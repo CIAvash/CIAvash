@@ -14,12 +14,9 @@
 
 <%- await include(`partials/topics.ejs`) %>
 
-<div style="display:flex;justify-content: space-between;flex-direction: row;">
-  <span>
-    <img alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
-  </span>
-  <span>
-    <img alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
-  </span>
-</div>
-  
+<span style="display: inline-block; width: 450px; height: 700px; overflow: hidden;">
+  <img alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
+</span>
+<span style="display: inline-block; width: 450px; height: 700px; overflow: hidden;">
+  <img alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
+</span>
