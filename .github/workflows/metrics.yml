@@ -137,7 +137,7 @@ jobs:
             plugin_screenshot: yes
             plugin_screenshot_title: "Siavash’s Tweets"
             plugin_screenshot_url: https://twitter.com/CIAvash/with_replies
-            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"] article'
+            plugin_screenshot_selector: '[aria-label="Timeline: Siavash’s Tweets"]'
 
         - name: Template
           uses: lowlighter/metrics@latest
