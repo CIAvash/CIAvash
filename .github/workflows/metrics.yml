@@ -144,7 +144,7 @@ jobs:
             plugin_rss_source: https://www.ciavash.name/blog/atom.xml
             plugin_rss_limit: 5
             plugin_topics: yes
-            # plugin_topics_limit: 15
+            plugin_topics_limit: 15
             plugin_topics_mode: icons
             # plugin_followup_sections: user
             # plugin_rss: yes
