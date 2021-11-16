@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="4746" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="786" class="">
     <defs>
         <style/>
     </defs>
@@ -1390,7 +1390,7 @@
     animation-duration: 0s !important;
     animation-play-state: paused !important;
     caret-color: transparent !important;
-  }:root {
+  }.items-wrapper {
  width: 450px !important;
  height: 700px !important;
  overflow: hidden !important;
