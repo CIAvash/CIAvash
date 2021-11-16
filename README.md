@@ -63,5 +63,4 @@
 [qutebrowser-userscripts](https://github.com/CIAvash?tab=stars)
 
 
-<img width="450" height="700" alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
-<img width="450" height="700" alt="Twitter - Siavash's Tweets" src=".cache/twitter.svg">
+<img alt="Mastodon - Siavash's Toots" src=".cache/mastodon.svg">
