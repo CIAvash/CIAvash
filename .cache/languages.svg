@@ -1587,16 +1587,16 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 105 edited files from 47 commits over last 93 days</small>
+                <small>estimation from 104 edited files from 46 commits over last 89 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="564.2282075441047" height="8" fill="#0000fb"/>
-                    <rect mask="url(#languages-bar)" x="564.2282075441047" y="0" width="347.9554241528315" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="912.1836316969362" y="0" width="5.365346502485461" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="917.5489781994218" y="0" width="2.4510218005783164" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="563.0859992503381" height="8" fill="#0000fb"/>
+                    <rect mask="url(#languages-bar)" x="563.0859992503381" y="0" width="349.07253793125926" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="912.1585371815974" y="0" width="5.3825719919818775" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="917.5411091735792" y="0" width="2.4588908264206903" height="8" fill="#c6538c"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1608,9 +1608,9 @@
                                 Raku
                             </div>
                             <small>
-                                <div>942 lines</div>
-                                <div>37.7 kB</div>
-                                <div>61.33%</div>
+                                <div>938 lines</div>
+                                <div>37.5 kB</div>
+                                <div>61.2%</div>
                             </small>
                         </div>
                     </section>
@@ -1625,7 +1625,7 @@
                             <small>
                                 <div>706 lines</div>
                                 <div>23.2 kB</div>
-                                <div>37.82%</div>
+                                <div>37.94%</div>
                             </small>
                         </div>
                     </section>
@@ -1640,7 +1640,7 @@
                             <small>
                                 <div>17 lines</div>
                                 <div>359 bytes</div>
-                                <div>0.58%</div>
+                                <div>0.59%</div>
                             </small>
                         </div>
                     </section>
