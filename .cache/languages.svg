@@ -2,7 +2,18 @@
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;color:#777}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3,svg{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06);width:100%!important;height:100%!important}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-fade{0%{opacity:0}to{opacity:1}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.columns .items-wrapper{column-count:2;column-gap:10px}svg.columns .items-wrapper&gt;*{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column}@media (max-width:850px){svg.columns .items-wrapper{column-count:1}}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,.field.language.details small{display:flex;justify-content:space-between}.field.language.details small{color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>:root {
+ width: 100% !important;
+ height: 100% !important;
+}
+.columns .column {
+ align-items: flex-start !important;
+ margin: 0 20px !important;
+}
+.columns .fill-width {
+ width: auto !important;
+}</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
             <section>
@@ -15,23 +26,23 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 553 edited files from 420 commits</small>
+                <small>estimation from 553 edited files from 424 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="305.97259455231034" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="305.97259455231034" y="0" width="190.7108013324778" height="8" fill="#0000fb"/>
-                    <rect mask="url(#languages-bar)" x="496.6833958847881" y="0" width="156.24304536225642" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="652.9264412470445" y="0" width="116.02190326351595" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="768.9483445105604" y="0" width="61.7805044547769" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="830.7288489653374" y="0" width="24.39225475288513" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="855.1211037182226" y="0" width="20.487930645525154" height="8" fill="#2b7489"/>
-                    <rect mask="url(#languages-bar)" x="875.6090343637477" y="0" width="18.92054060863884" height="8" fill="#0298c3"/>
-                    <rect mask="url(#languages-bar)" x="894.5295749723865" y="0" width="13.792493239462205" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="908.3220682118488" y="0" width="11.640195828535768" height="8" fill="#c065db"/>
-                    <rect mask="url(#languages-bar)" x="919.9622640403845" y="0" width="0.037735959615491664" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="305.68510713031264" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="305.68510713031264" y="0" width="191.39603090972952" height="8" fill="#0000fb"/>
+                    <rect mask="url(#languages-bar)" x="497.08113804004216" y="0" width="156.09624165788549" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="653.1773796979277" y="0" width="115.91289076220582" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="769.0902704601335" y="0" width="61.72245638683995" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="830.8127268469734" y="0" width="24.369336143308743" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="855.1820629902822" y="0" width="20.46868048237911" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="875.6507434726614" y="0" width="18.90276314248917" height="8" fill="#0298c3"/>
+                    <rect mask="url(#languages-bar)" x="894.5535066151505" y="0" width="13.779534012410725" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="908.3330406275612" y="0" width="11.629258868984897" height="8" fill="#c065db"/>
+                    <rect mask="url(#languages-bar)" x="919.9622994965462" y="0" width="0.03770050345392811" height="8" fill="#89e051"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -45,7 +56,7 @@
                             <small>
                                 <div>7.33k lines</div>
                                 <div>227 kB</div>
-                                <div>33.26%</div>
+                                <div>33.23%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -58,7 +69,7 @@
                             <small>
                                 <div>831 lines</div>
                                 <div>45.8 kB</div>
-                                <div>6.72%</div>
+                                <div>6.71%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -84,9 +95,9 @@
                                 Raku
                             </div>
                             <small>
-                                <div>3.75k lines</div>
-                                <div>141 kB</div>
-                                <div>20.73%</div>
+                                <div>3.77k lines</div>
+                                <div>142 kB</div>
+                                <div>20.8%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -112,7 +123,7 @@
                             <small>
                                 <div>216 lines</div>
                                 <div>8.64 kB</div>
-                                <div>1.27%</div>
+                                <div>1.26%</div>
                             </small>
                         </div>
                     </section>
@@ -127,7 +138,7 @@
                             <small>
                                 <div>2.76k lines</div>
                                 <div>115 kB</div>
-                                <div>16.98%</div>
+                                <div>16.97%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -140,7 +151,7 @@
                             <small>
                                 <div>516 lines</div>
                                 <div>15.2 kB</div>
-                                <div>2.23%</div>
+                                <div>2.22%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -168,7 +179,7 @@
                             <small>
                                 <div>2.27k lines</div>
                                 <div>86 kB</div>
-                                <div>12.61%</div>
+                                <div>12.6%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -181,7 +192,7 @@
                             <small>
                                 <div>265 lines</div>
                                 <div>14 kB</div>
-                                <div>2.06%</div>
+                                <div>2.05%</div>
                             </small>
                         </div>
                     </section>
@@ -189,14 +200,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 92 edited files from 39 commits over last 92 days</small>
+                <small>estimation from 90 edited files from 39 commits over last 90 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="691.10532639167" height="8" fill="#0000fb"/>
-                    <rect mask="url(#languages-bar)" x="691.10532639167" y="0" width="228.89467360833" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="660.3638676266836" height="8" fill="#0000fb"/>
+                    <rect mask="url(#languages-bar)" x="660.3638676266836" y="0" width="259.63613237331634" height="8" fill="#00ADD8"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -208,9 +219,9 @@
                                 Raku
                             </div>
                             <small>
-                                <div>937 lines</div>
-                                <div>37.5 kB</div>
-                                <div>75.12%</div>
+                                <div>718 lines</div>
+                                <div>31.6 kB</div>
+                                <div>71.78%</div>
                             </small>
                         </div>
                     </section>
@@ -225,7 +236,7 @@
                             <small>
                                 <div>296 lines</div>
                                 <div>12.4 kB</div>
-                                <div>24.88%</div>
+                                <div>28.22%</div>
                             </small>
                         </div>
                     </section>
