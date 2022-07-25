@@ -112,7 +112,7 @@ jobs:
             config_timezone: Asia/Tehran
             base: ''
             plugin_rss: yes
-            plugin_rss_source: https://www.ciavash.name/blog/atom.xml
+            plugin_rss_source: https://siavash.askari-nasr.com/blog/atom.xml
             plugin_rss_limit: 5
             # plugin_followup_sections: user
             # plugin_rss: yes
