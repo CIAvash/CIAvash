@@ -194,15 +194,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 53.5kb of code in 22 edited files across 31 commits over last 92 days</small>
+                <small>estimation from 53.3kb of code in 16 edited files across 27 commits over last 87 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="869.2964967245799" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="869.2964967245799" y="0" width="42.4494446026773" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="911.7459413272572" y="0" width="8.254058672742808" height="8" fill="#c065db"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="874.2570568849405" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="874.2570568849405" y="0" width="42.710990113196736" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="916.9680469981373" y="0" width="3.031953001862731" height="8" fill="#c065db"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -214,9 +214,9 @@
                                 Go
                             </div>
                             <small>
-                                <div>193 lines</div>
+                                <div>194 lines</div>
                                 <div>13.2 kB</div>
-                                <div>94.49%</div>
+                                <div>95.03%</div>
                             </small>
                         </div>
                     </section>
@@ -231,7 +231,7 @@
                             <small>
                                 <div>30 lines</div>
                                 <div>648 bytes</div>
-                                <div>4.61%</div>
+                                <div>4.64%</div>
                             </small>
                         </div>
                     </section>
@@ -244,9 +244,9 @@
                                 Emacs Lisp
                             </div>
                             <small>
-                                <div>4 lines</div>
-                                <div>126 bytes</div>
-                                <div>0.9%</div>
+                                <div>2 lines</div>
+                                <div>46 bytes</div>
+                                <div>0.33%</div>
                             </small>
                         </div>
                     </section>
