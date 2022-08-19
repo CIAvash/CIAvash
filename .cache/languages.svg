@@ -194,14 +194,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 52.6kb of code in 14 edited files across 29 commits over last 92 days</small>
+                <small>estimation from 52.9kb of code in 14 edited files across 27 commits over last 93 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="916.8204357625846" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="916.8204357625846" y="0" width="3.179564237415477" height="8" fill="#c065db"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="900.0501548901018" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="900.0501548901018" y="0" width="19.949845109898217" height="8" fill="#c065db"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -215,7 +215,7 @@
                             <small>
                                 <div>194 lines</div>
                                 <div>13.2 kB</div>
-                                <div>99.65%</div>
+                                <div>97.83%</div>
                             </small>
                         </div>
                     </section>
@@ -228,9 +228,9 @@
                                 Emacs Lisp
                             </div>
                             <small>
-                                <div>2 lines</div>
-                                <div>46 bytes</div>
-                                <div>0.35%</div>
+                                <div>3 lines</div>
+                                <div>294 bytes</div>
+                                <div>2.17%</div>
                             </small>
                         </div>
                     </section>
