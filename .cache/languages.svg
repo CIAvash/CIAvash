@@ -194,7 +194,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 48.1kb of code in 10 edited files across 24 commits over last 92 days</small>
+                <small>estimation from 47kb of code in 9 edited files across 22 commits over last 85 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
@@ -212,8 +212,8 @@
                                 Go
                             </div>
                             <small>
-                                <div>194 lines</div>
-                                <div>13.2 kB</div>
+                                <div>200 lines</div>
+                                <div>13.4 kB</div>
                                 <div>100%</div>
                             </small>
                         </div>
