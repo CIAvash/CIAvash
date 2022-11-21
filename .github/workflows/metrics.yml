@@ -71,6 +71,7 @@ jobs:
             extras_css: ${{ env.CSS_IMG }}
             plugin_languages: yes
             plugin_languages_indepth: yes
+            plugin_languages_indepth_custom: https://codeberg.org/CIAvash/APISports-Football.git
             plugin_languages_skipped: CIAvash
             plugin_languages_details: percentage, bytes-size, lines
             plugin_languages_limit: 0
