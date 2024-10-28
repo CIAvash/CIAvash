@@ -43,8 +43,8 @@
                     <rect mask="url(#languages-bar)" x="906.6147735558212" y="0" width="9.107773645712992" height="8" fill="#c065db"/>
                     <rect mask="url(#languages-bar)" x="915.7225472015341" y="0" width="2.909831835691052" height="8" fill="#ededed"/>
                     <rect mask="url(#languages-bar)" x="918.6323790372252" y="0" width="0.7182690162837386" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="919.3506480535088" y="0" width="0.45485266063170654" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="919.8055007141405" y="0" width="0.19449928585934925" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="919.3506480535088" y="0" width="0.45485266063170654" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="919.8055007141405" y="0" width="0.19449928585934925" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -90,7 +90,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Shell
                             </div>
@@ -213,7 +213,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#A97BFF" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Kotlin
                             </div>
